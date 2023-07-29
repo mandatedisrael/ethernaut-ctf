@@ -58,6 +58,23 @@ The tips here is just to pay kin attention to how constructors are defined and a
 
 
 - Smart Contract: `contract/Fallout.sol`
+
+---
+
+## Challenge 4: Coin Flip
+
+Solved✅
+![Screenshot](./img/CoinFlip.png)
+
+### Task 🧵
+- Guess the correct outcome of the coin flip 10 times in a row
+
+### **Solution**🏆
+
+The tips is to study the vulnerability associated with the method used to generate random numbers in the smart contract. In this case, the `blockhash` method is used to generate random numbers and this is vulnerable to miner manipulation.
+
+
+- Smart Contract: `contract/CoinFlip.sol`
 ## Disclaimer
 
 This repository is for educational and demonstration purposes only. The code in this repository is not optimized for production use and may contain security vulnerabilities. Use it at your own risk.
