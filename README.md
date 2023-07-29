@@ -20,7 +20,7 @@ To solve the "Hello Ethernaut" challenge, read carefully the `abi` of the `Hello
 
 ---
 
-## Challenge 2: Fallout
+## Challenge 2: Fallback
 
 Solved✅
 ![Screenshot](./img/fallback.png)
@@ -38,6 +38,23 @@ To solve the "Fallback" challenge, You need to understand the how `receive` and 
 
 To solve this challenge, you need to send a transaction to the contract with some data, this will call the `receive` function and ownership will be transfered to you which is the first objective.
 Lastly, since you are the owner of the contract, you have the access to call the `withdraw` function to drain out the wallet and this will unlock the level.
+
+
+- Smart Contract: `contract/Fallback.sol`
+
+---
+
+## Challenge 3: Fallout
+
+Solved✅
+![Screenshot](./img/fallout.png)
+
+### Task 🧵
+- Claim ownership of the contract
+
+### **Solution**🏆
+
+The tips here is just to pay kin attention to how constructors are defined and avoid common spelling mistakes.
 
 
 - Smart Contract: `contract/Fallout.sol`
