@@ -11,7 +11,7 @@ This repository contains tips to solving the Ethernaut Capture the Flag (CTF) ch
 Solved✅
 ![Screenshot](./img/hello-ethernaut.png)
 
-### **Solution**🏆
+### **Tips**🏆
 
 To solve the "Hello Ethernaut" challenge, read carefully the `abi` of the `HelloEthernaut` contract and call the `password` function, this will return the password which is used as the parameter for calling the `authenticate` function and this unlocks the level.
 
@@ -29,7 +29,7 @@ Solved✅
 - Claim ownership of the contract
 - Withdraw the contract's funds
 
-### **Solution**🏆
+### **Tips**🏆
 
 To solve the "Fallback" challenge, You need to understand the how `receive` and `fallback` function works in Solidity
 
@@ -52,7 +52,7 @@ Solved✅
 ### Task 🧵
 - Claim ownership of the contract
 
-### **Solution**🏆
+### **Tips**🏆
 
 The tips here is just to pay kin attention to how constructors are defined and avoid common spelling mistakes.
 
@@ -69,12 +69,28 @@ Solved✅
 ### Task 🧵
 - Guess the correct outcome of the coin flip 10 times in a row
 
-### **Solution**🏆
+### **Tips**🏆
 
 The tips is to study the vulnerability associated with the method used to generate random numbers in the smart contract. In this case, the `blockhash` method is used to generate random numbers and this is vulnerable to miner manipulation.
 
 
 - Smart Contract: `contract/CoinFlip.sol`
+
+---
+
+## Challenge 5: Telephone
+
+Solved✅
+![Screenshot](./img/Telephone.png)
+
+### Task 🧵
+- Claim ownership of the contract
+
+### **Tip**🏆
+
+What is the difference between `msg.sender` and `tx.origin`? and What parameter changes the contract owner?
+
+- Smart Contract: `contract/Telephone.sol`
 ## Disclaimer
 
 This repository is for educational and demonstration purposes only. The code in this repository is not optimized for production use and may contain security vulnerabilities. Use it at your own risk.
