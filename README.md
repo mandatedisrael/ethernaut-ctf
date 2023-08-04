@@ -91,6 +91,25 @@ Solved✅
 What is the difference between `msg.sender` and `tx.origin`? and What parameter changes the contract owner?
 
 - Smart Contract: `contract/Telephone.sol`
+
+---
+
+## Challenge 5: Token
+
+Solved✅
+![Screenshot](./img/token.png)
+
+### Task 🧵
+- You are given 20 token, find a way to hack the contract and get more tokens
+
+### **Tip**🏆
+
+What is Overflow and Underflow? and How can you exploit it?
+What is Odometer and how can you exploit it?
+What is OpenZeppelin SafeMath library and how can you use it to prevent overflow and underflow?
+
+- Smart Contract: `contract/Token.sol`
+
 ## Disclaimer
 
 This repository is for educational and demonstration purposes only. The code in this repository is not optimized for production use and may contain security vulnerabilities. Use it at your own risk.
