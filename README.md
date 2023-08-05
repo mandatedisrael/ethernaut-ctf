@@ -94,7 +94,7 @@ What is the difference between `msg.sender` and `tx.origin`? and What parameter 
 
 ---
 
-## Challenge 5: Token
+## Challenge 6: Token
 
 Solved✅
 ![Screenshot](./img/token.png)
@@ -109,6 +109,24 @@ What is Odometer and how can you exploit it?
 What is OpenZeppelin SafeMath library and how can you use it to prevent overflow and underflow?
 
 - Smart Contract: `contract/Token.sol`
+
+---
+
+## Challenge 7: Delegation
+
+Solved✅
+![Screenshot](./img/Delegation.png)
+
+### Task 🧵
+- Claim ownership of the contract
+
+### **Tip**🏆
+
+What is `DelegateCall` and how can you exploit it?
+
+Dont keep banging your head sending data via Remix, check other ways to send data to a contract.
+
+- Smart Contract: `contract/Delegation.sol`
 
 ## Disclaimer
 
