@@ -128,6 +128,23 @@ Dont keep banging your head sending data via Remix, check other ways to send dat
 
 - Smart Contract: `contract/Delegation.sol`
 
+---
+
+## Challenge 8: Force
+
+Solved✅
+![Screenshot](./img/Force.png)
+
+### Task 🧵
+- Send ethers to this empty contract
+
+### **Tip**🏆
+
+What are forceful ways to send ether to a smart contract?
+Have you heard of `selfdestruct`?
+
+- Smart Contract: `contract/Force.sol`
+
 ## Disclaimer
 
 This repository is for educational and demonstration purposes only. The code in this repository is not optimized for production use and may contain security vulnerabilities. Use it at your own risk.
