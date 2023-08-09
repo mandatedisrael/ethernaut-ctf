@@ -163,6 +163,22 @@ Have you heard of slot manipulation?
 
 - Smart Contract: `contract/Vault.sol`
 
+---
+
+## Challenge 10: King
+
+Solved✅
+![Screenshot](./img/King.png)
+
+### Task 🧵
+- Become the king and prevent the contract from being the king
+
+### **Tip**🏆
+
+What are the different ways to send ether to a smart contract? whats the difference between these methods?
+
+- Smart Contract: `contract/King.sol`
+
 ## Disclaimer
 
 This repository is for educational and demonstration purposes only. The code in this repository is not optimized for production use and may contain security vulnerabilities. Use it at your own risk.
