@@ -145,6 +145,24 @@ Have you heard of `selfdestruct`?
 
 - Smart Contract: `contract/Force.sol`
 
+
+---
+
+## Challenge 9: Vault
+
+Solved✅
+![Screenshot](./img/Vault.png)
+
+### Task 🧵
+- Unlock the vault to pass the level!
+
+### **Tip**🏆
+
+Is anything hidden on the blockchain?
+Have you heard of slot manipulation?
+
+- Smart Contract: `contract/Vault.sol`
+
 ## Disclaimer
 
 This repository is for educational and demonstration purposes only. The code in this repository is not optimized for production use and may contain security vulnerabilities. Use it at your own risk.
