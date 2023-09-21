@@ -16,3 +16,8 @@ contract Vault {
     }
   }
 }
+
+// Solution
+// on ethernaut console
+// just get the data at slot 1 since that is where password is stored
+await web3.eth.getStorageAt(instance, "1");
