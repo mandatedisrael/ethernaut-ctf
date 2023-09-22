@@ -16,7 +16,7 @@ Solved✅
 To solve the "Hello Ethernaut" challenge, read carefully the `abi` of the `HelloEthernaut` contract and call the `password` function, this will return the password which is used as the parameter for calling the `authenticate` function and this unlocks the level.
 
 
-- Smart Contract: `contract/HelloEthernaut.sol`
+- Smart Contract and Solution: `contract/HelloEthernaut.sol`
 
 ---
 
@@ -40,7 +40,7 @@ To solve this challenge, you need to send a transaction to the contract with som
 Lastly, since you are the owner of the contract, you have the access to call the `withdraw` function to drain out the wallet and this will unlock the level.
 
 
-- Smart Contract: `contract/Fallback.sol`
+- Smart Contract and Solution: `contract/Fallback.sol`
 
 ---
 
@@ -57,7 +57,7 @@ Solved✅
 The tips here is just to pay kin attention to how constructors are defined and avoid common spelling mistakes.
 
 
-- Smart Contract: `contract/Fallout.sol`
+- Smart Contract and Solution: `contract/Fallout.sol`
 
 ---
 
@@ -74,7 +74,7 @@ Solved✅
 The tips is to study the vulnerability associated with the method used to generate random numbers in the smart contract. In this case, the `blockhash` method is used to generate random numbers and this is vulnerable to miner manipulation.
 
 
-- Smart Contract: `contract/CoinFlip.sol`
+- Smart Contract and Solution: `contract/CoinFlip.sol`
 
 ---
 
@@ -90,7 +90,7 @@ Solved✅
 
 What is the difference between `msg.sender` and `tx.origin`? and What parameter changes the contract owner?
 
-- Smart Contract: `contract/Telephone.sol`
+- Smart Contract and Solution: `contract/Telephone.sol`
 
 ---
 
@@ -108,7 +108,7 @@ What is Overflow and Underflow? and How can you exploit it?
 What is Odometer and how can you exploit it?
 What is OpenZeppelin SafeMath library and how can you use it to prevent overflow and underflow?
 
-- Smart Contract: `contract/Token.sol`
+- Smart Contract and Solution: `contract/Token.sol`
 
 ---
 
@@ -126,7 +126,7 @@ What is `DelegateCall` and how can you exploit it?
 
 Dont keep banging your head sending data via Remix, check other ways to send data to a contract.
 
-- Smart Contract: `contract/Delegation.sol`
+- Smart Contract and Solution: `contract/Delegation.sol`
 
 ---
 
@@ -143,7 +143,7 @@ Solved✅
 What are forceful ways to send ether to a smart contract?
 Have you heard of `selfdestruct`?
 
-- Smart Contract: `contract/Force.sol`
+- Smart Contract and Solution: `contract/Force.sol`
 
 
 ---
@@ -161,7 +161,7 @@ Solved✅
 Is anything hidden on the blockchain?
 Have you heard of slot manipulation?
 
-- Smart Contract: `contract/Vault.sol`
+- Smart Contract and Solution: `contract/Vault.sol`
 
 ---
 
@@ -177,7 +177,22 @@ Solved✅
 
 What are the different ways to send ether to a smart contract? whats the difference between these methods?
 
-- Smart Contract: `contract/King.sol`
+- Smart Contract and Solution: `contract/King.sol`
+
+---
+
+## Challenge 11: Re-entrancy
+Solved✅
+![Screenshot](./img/reentrance.png)
+
+### Task 🧵
+- Withdraw all the funds from the contract
+
+### **Tip**🏆
+
+What is re-entrancy and how can you exploit it?
+
+- Smart Contract and Solution: `contract/Reentrance.sol`
 
 ## Disclaimer
 
