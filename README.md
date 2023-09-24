@@ -194,6 +194,23 @@ What is re-entrancy and how can you exploit it?
 
 - Smart Contract and Solution: `contract/Reentrance.sol`
 
+---
+
+## Challenge 12: Elevator
+Solved✅
+![Screenshot](./img/elevator.png)
+
+### Task 🧵
+- Reach the top floor of the building
+
+### **Tip**🏆
+
+How can you exploit the `goTo` function?
+How does interface work in solidity to build a contract that can interact with another contract?
+
+- Smart Contract and Solution: `contract/Elevator.sol`
+
+
 ## Disclaimer
 
 This repository is for educational and demonstration purposes only. The code in this repository is not optimized for production use and may contain security vulnerabilities. Use it at your own risk.
