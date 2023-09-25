@@ -9,7 +9,7 @@ This repository contains tips to solving the Ethernaut Capture the Flag (CTF) ch
 ## Challenge 1: Hello Ethernaut
 
 Solved✅
-![Screenshot](./img/hello-ethernaut.png)
+![Screenshot](./img/Hello-ethernaut.png)
 
 ### **Tips**🏆
 
@@ -23,7 +23,7 @@ To solve the "Hello Ethernaut" challenge, read carefully the `abi` of the `Hello
 ## Challenge 2: Fallback
 
 Solved✅
-![Screenshot](./img/fallback.png)
+![Screenshot](./img/Fallback.png)
 
 ### Task 🧵
 - Claim ownership of the contract
@@ -47,7 +47,7 @@ Lastly, since you are the owner of the contract, you have the access to call the
 ## Challenge 3: Fallout
 
 Solved✅
-![Screenshot](./img/fallout.png)
+![Screenshot](./img/Fallout.png)
 
 ### Task 🧵
 - Claim ownership of the contract
@@ -97,7 +97,7 @@ What is the difference between `msg.sender` and `tx.origin`? and What parameter 
 ## Challenge 6: Token
 
 Solved✅
-![Screenshot](./img/token.png)
+![Screenshot](./img/Token.png)
 
 ### Task 🧵
 - You are given 20 token, find a way to hack the contract and get more tokens
@@ -183,7 +183,7 @@ What are the different ways to send ether to a smart contract? whats the differe
 
 ## Challenge 11: Re-entrancy
 Solved✅
-![Screenshot](./img/reentrance.png)
+![Screenshot](./img/Reentrance.png)
 
 ### Task 🧵
 - Withdraw all the funds from the contract
@@ -198,7 +198,7 @@ What is re-entrancy and how can you exploit it?
 
 ## Challenge 12: Elevator
 Solved✅
-![Screenshot](./img/elevator.png)
+![Screenshot](./img/Elevator.png)
 
 ### Task 🧵
 - Reach the top floor of the building
@@ -209,6 +209,22 @@ How can you exploit the `goTo` function?
 How does interface work in solidity to build a contract that can interact with another contract?
 
 - Smart Contract and Solution: `contract/Elevator.sol`
+
+---
+
+## Challenge 13: Privacy
+Solved✅
+![Screenshot](./img/Privacy.png)
+
+### Task 🧵
+- unlock the level
+
+### **Tip**🏆
+
+How does type casting work in solidity?
+How do you get the value of a private variable in a contract?
+
+- Smart Contract and Solution: `contract/Privacy.sol`
 
 
 ## Disclaimer
